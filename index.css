@@ -159,7 +159,7 @@
     border-radius: 8px;
     z-index: 1;
     transform: 0.5s;
-    color: #fff;
+    color: #111;
 }
 
 .container-card .box:hover .content {
@@ -169,7 +169,7 @@
 
 .container-card .box .content h2 {
     font-size: 2em;
-    color: #fff;
+    color: #111;
     margin-bottom: 10px;
 }
 
