@@ -1,7 +1,8 @@
 .bc-gr {
-    background: linear-gradient(315deg, #03a9f4, #ff0058);
-    box-shadow: 0 5px 20px black;
+    background: linear-gradient(315deg, rgba(3, 169, 244, 0.5), rgba(255, 0, 88, 0.5));
+    box-shadow: 0 3px 30px black;
 }
+
 /* main header */
 .special-heading {
     color: rgb(242, 236, 252);
@@ -17,77 +18,50 @@
         font-size: 60px;
     }
 }
+
 /* end main header */
 
-.about {
-    background: #fafafa
+/* hero image */
+
+a {
+    transition: all 0.3s ease;
 }
 
-.about__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10rem
+.weight-500 {
+    font-weight: 500;
 }
 
-@media only screen and (max-width: 56.25em) {
-    .about__content {
-        grid-template-columns:1fr;
-        grid-gap: 8rem
+.banner-image {
+    background-image: url('https://avatars.githubusercontent.com/u/126164250?v=4');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+}
+
+.social-icons a {
+    margin-right: 15px;
+    color: #999;
+}
+
+.social-icons a:hover {
+    color: #333;
+}
+
+@media(max-width:991.27px) {
+    .banner-image {
+        background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('https://avatars.githubusercontent.com/u/126164250?v=4');
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: auto;
     }
 }
 
-.about__content-title {
-    font-weight: 700;
-    font-size: 2.8rem;
-    margin-bottom: 3rem
-}
+/* end hero image */
 
-@media only screen and (max-width: 37.5em) {
-    .about__content-title {
-        font-size:2.4rem
-    }
-}
+/* my skills */
+/* end my skills */
 
-.about__content-details-para {
-    font-size: 1.8rem;
-    color: #000000;
-    max-width: 60rem;
-    line-height: 1.7;
-    margin-bottom: 1rem
-}
-
-.about__content-details-para--hl {
-    font-weight: 700;
-    margin: 0 3px
-}
-
-.about__content-details-para:last-child {
-    margin-bottom: 4rem
-}
-
-.about__content-details-para a {
-    text-decoration: underline;
-    font-weight: 700;
-    color: #facf0f;
-    margin: 0 3px
-}
-
-.skills {
-    display: flex;
-    flex-wrap: wrap
-}
-
-.skills__skill {
-    padding: 1rem 2rem;
-    margin-bottom: 1.5rem;
-    margin-right: 1.5rem;
-    font-size: 1.6rem;
-    background: rgba(153,153,153,.2);
-    border-radius: 5px;
-    font-weight: 600;
-    color: #666
-}
-
+/* my projects */
 .container-card {
     display: flex;
     justify-content: center;
@@ -145,7 +119,7 @@
 
 .container-card .box:before,
 .container-card .box:after {
-    background: linear-gradient(315deg, #03a9f4, #ff0058)
+    background: linear-gradient(315deg, rgba(3, 169, 244, 0.5), rgba(255, 0, 88, 0.5));
 }
 
 .container-card .box span {
@@ -180,7 +154,7 @@
     left: 50px;
     width: 100px;
     height: 100px;
-    opacity: 1;
+    opacity: 0.5;
 }
 
 .container-card .box span::after {
@@ -205,7 +179,7 @@
     right: 50px;
     width: 100px;
     height: 100px;
-    opacity: 1;
+    opacity: 0.5;
 }
 
 @keyframes animate {
@@ -234,6 +208,7 @@
 }
 
 .container-card .box:hover .content {
+    transition-duration: 0.3s;
     left: -25px;
     padding: 60px 40px;
 }
@@ -269,43 +244,4 @@
     box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2);
 }
 
-
-
-a {
-    transition: all 0.3s ease;
-}
-.weight-500 {
-    font-weight: 500;
-}
-
-.btn {
-    position: relative;
-    padding: 13.5px 36px;
-    font-weight: 700;
-    border-radius: 30px;
-    font-size: 13px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-.banner-image{
-background-image:url('https://avatars.githubusercontent.com/u/126164250?v=4');
-background-repeat:no-repeat;
-background-position:right;
-background-size:auto
-}
-.social-icons a{
-margin-right:15px;
-color:#999;
-}
-.social-icons a:hover{
-color:#333;
-}
-@media(max-width:991.27px){
-    .banner-image{
-    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('https://avatars.githubusercontent.com/u/126164250?v=4');
-    background-repeat:no-repeat;
-background-position:right;
-background-size:auto;
-    }
-}
+/* end my projects */
