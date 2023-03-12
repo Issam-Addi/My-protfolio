@@ -55,8 +55,20 @@ a {
         background-size: auto;
     }
 }
-
 /* end hero image */
+
+/* my education */
+.my-education {
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+    background: linear-gradient(315deg, rgba(3, 169, 244, 0.5), rgba(255, 0, 88, 0.5));
+    border-radius: 5px;
+    font-weight: 600;
+    color: #666
+}
+/* end my education */
 
 /* my skills */
 .skills {
