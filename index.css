@@ -5,7 +5,7 @@
 
 /* main header */
 .special-heading {
-    color: rgb(242, 236, 252);
+    color: rgb(171, 170, 172);
     font-size: 100px;
     text-align: center;
     font-weight: 800;
@@ -40,11 +40,11 @@ a {
 
 .social-icons a {
     margin-right: 15px;
-    color: #999;
+    color: rgb(107, 106, 108);
 }
 
 .social-icons a:hover {
-    color: #333;
+    color: #2c2c2c;
 }
 
 @media(max-width:991.27px) {
