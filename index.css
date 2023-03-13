@@ -81,9 +81,21 @@ a {
 .skills {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 75%;
     margin-left:10%;
+}
+.skills-Technical-skills {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 75%;
+margin-left:10%;
+color: rgb(171, 170, 172);
+font-size: 40px;
+font-weight: 500;
+letter-spacing: -3px;
+margin-bottom: 1em;
 }
 
 .skills__skill {
