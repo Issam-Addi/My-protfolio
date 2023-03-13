@@ -75,6 +75,11 @@ a {
     color: black;
     text-align: center;
 }
+
+.edu {
+    width: 50%;
+    text-align: left;
+}
 /* end my education */
 
 /* my skills */
@@ -95,7 +100,7 @@ color: rgb(171, 170, 172);
 font-size: 40px;
 font-weight: 500;
 letter-spacing: -3px;
-margin-bottom: 1em;
+margin-bottom: 1.7em;
 }
 
 .skills__skill {
