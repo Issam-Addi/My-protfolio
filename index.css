@@ -3,6 +3,10 @@
     box-shadow: 0 3px 30px black;
 }
 
+.box-shadow {
+    box-shadow: 0 3px 30px black;
+}
+
 /* main header */
 .special-heading {
     color: rgb(171, 170, 172);
