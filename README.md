@@ -1,6 +1,6 @@
 # protfolio  
 
-The website displays a highlight for
+The website displays a highlight for: 
 + education  
 + skills  
 + projects  
