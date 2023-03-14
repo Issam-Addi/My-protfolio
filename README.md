@@ -1,10 +1,9 @@
-# My-protfolio  
+# protfolio  
 
-## Description
-websit displays information about me:
-+ My education  
-+ My skills  
-+ My projects  
+The website displays a highlight for
++ education  
++ skills  
++ projects  
 
 ## The tools i uesd :
 1- HTML file  
